@@ -1,0 +1,4 @@
+0		0		1		2		3
+2		path_folder_input		C:\Users\anhuv\Desktop\img_training_new
+2		path_label_output		C:\Users\anhuv\Desktop\New folder
+2		path_weights			C:\Users\anhuv\Desktop\model\train24\weights\best.pt

@@ -1,0 +1,5 @@
+0		0		1		2		3
+2		path_folder_input		D:\tupn\data_training\fuser_dll_a_Thai_Cuong_new\oject\giac_nhua\W514\log_2026_2_10
+2		path_label_output		D:\tupn\data_training\fuser_dll_a_Thai_Cuong_new\oject\giac_nhua\output_w514
+2		path_weights			D:\tupn\yolo\runs\detect\fuser_dll_3_label\weights\best.pt
+2		path_img_output			D:\tupn\data_training\fuser_fcl_a_Thai_Cuong_new\oject\circle\img

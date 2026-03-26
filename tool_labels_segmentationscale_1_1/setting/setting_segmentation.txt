@@ -1,0 +1,4 @@
+folder_input C:\Users\anhuv\Desktop\model\m2\Train\img
+forder_output C:\Users\anhuv\Desktop\model\m2\Train\label
+resize 3
+anpha 1

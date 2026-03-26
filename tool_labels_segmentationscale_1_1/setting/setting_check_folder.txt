@@ -1,0 +1,2 @@
+image_folder C:\Users\anhuv\Desktop\inputt
+txt_folder C:\Users\anhuv\Desktop\lable_out

@@ -1,0 +1,1 @@
+file_yolo_12_ojectdetect = r"D:\tupn\tools_yolo_convert\weight\land_oject_LV\weights\best.pt"
