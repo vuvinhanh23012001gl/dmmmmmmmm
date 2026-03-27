@@ -1,4 +1,4 @@
-folder_input C:\Users\anhuv\Desktop\model\m2\Train\img
-forder_output C:\Users\anhuv\Desktop\model\m2\Train\label
-resize 3
+folder_input C:\Users\vuthi\Desktop\New folder\dmmmmmmmm\common\common\img
+forder_output C:\Users\vuthi\Desktop\New folder\dmmmmmmmm\common\common\label
+resize 1.5
 anpha 1

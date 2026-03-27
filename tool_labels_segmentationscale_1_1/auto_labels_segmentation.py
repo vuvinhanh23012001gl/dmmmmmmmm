@@ -20,7 +20,7 @@ path_phan_mem = folder.edit_path(os.path.dirname(os.path.realpath(__file__)))
 try:
     path_folder_model = folder.create_folder_parent(NAME_FOLDER_MODEL)
     path_file_model = folder.create_file_in_folder(path_folder_model, NAME_FILE_MODEL)
-    model = YOLO(path_file_model)
+    model = YOLO(path_file_model).cuda()
     model_loaded = True
     print("YOLO model loaded successfully.")
 except Exception as e:
@@ -57,7 +57,7 @@ show_help = True
     
 # Thêm biến trạng thái hiển thị bounding box và danh sách bounding box YOLO
 
-yolo_bboxes = []  # Lưu bounding box từ YOLO predict
+yolo_bboxes = []  # Lưu bounding box từ YOLO preddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddict
 
 
 # Thêm biến cho chế độ vẽ bounding box thủ công
@@ -403,10 +403,10 @@ while True:
         # showerror(title="error", message=display_message)
     else:
         display_message = "" # Clear message after durationq
-    if show_help:
-        help_image = calculate.create_help_image(calculate.text, height=h2)
-        cv2.imshow('Help', help_image)
-        cv2.imshow(name_img, img_new)
+    # if show_help:
+    #     help_image = calculate.create_help_image(calculate.text, height=h2)
+    #     # cv2.imshow('Help', help_image)
+    #     # cv2.imshow(name_img, img_new)
     if polygons_dirty:
         if img_mask is not None and np.any(img_mask):
             # 1. Cập nhật mask từ polygon (giữ nguyên logic của bạn)
